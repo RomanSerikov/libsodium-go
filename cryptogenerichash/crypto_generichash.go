@@ -1,12 +1,13 @@
-package generichash
+package cryptogenerichash
 
 // #cgo pkg-config: libsodium
 // #include <stdlib.h>
 // #include <sodium.h>
 import "C"
 import (
-	"github.com/romanserikov/libsodium-go/support"
 	"unsafe"
+
+	"github.com/romanserikov/libsodium-go/support"
 )
 
 func CryptoGenericHashBytesMin() int {
