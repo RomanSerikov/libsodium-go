@@ -2,7 +2,7 @@ package aead
 
 import (
 	"bytes"
-	"github.com/GoKillers/libsodium-go/crypto/aead/aes256gcm"
+	"github.com/romanserikov/libsodium-go/crypto/aead/aes256gcm"
 	"github.com/google/gofuzz"
 	"testing"
 )

@@ -4,7 +4,7 @@ package cryptoauth
 // #include <stdlib.h>
 // #include <sodium.h>
 import "C"
-import "github.com/GoKillers/libsodium-go/support"
+import "github.com/romanserikov/libsodium-go/support"
 
 func CryptoAuthBytes() int {
 	return int(C.crypto_auth_bytes())

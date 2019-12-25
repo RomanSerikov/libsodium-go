@@ -5,7 +5,7 @@ package generichash
 // #include <sodium.h>
 import "C"
 import (
-	"github.com/GoKillers/libsodium-go/support"
+	"github.com/romanserikov/libsodium-go/support"
 	"unsafe"
 )
 

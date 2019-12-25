@@ -4,7 +4,7 @@ package cryptostream
 // #include <stdlib.h>
 // #include <sodium.h>
 import "C"
-import "github.com/GoKillers/libsodium-go/support"
+import "github.com/romanserikov/libsodium-go/support"
 
 func CryptoStreamSalsa2012KeyBytes() int {
 	return int(C.crypto_stream_salsa2012_keybytes())

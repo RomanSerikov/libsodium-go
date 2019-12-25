@@ -4,7 +4,7 @@ package randombytes
 // #include <stdlib.h>
 // #include <sodium.h>
 import "C"
-import "github.com/GoKillers/libsodium-go/support"
+import "github.com/romanserikov/libsodium-go/support"
 import "unsafe"
 
 // RandomBytesSeedBytes returns the number of bytes required

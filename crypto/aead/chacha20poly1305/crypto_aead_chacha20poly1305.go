@@ -5,7 +5,7 @@ package chacha20poly1305
 // #include <stdlib.h>
 // #include <sodium.h>
 import "C"
-import "github.com/GoKillers/libsodium-go/support"
+import "github.com/romanserikov/libsodium-go/support"
 
 // Sodium should always be initialised
 func init() {

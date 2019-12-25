@@ -5,7 +5,7 @@ package aes256gcm
 // #include <stdlib.h>
 // #include <sodium.h>
 import "C"
-import "github.com/GoKillers/libsodium-go/support"
+import "github.com/romanserikov/libsodium-go/support"
 
 // Sodium should always be initialised
 func init() {
